@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Reseñas de libros" />
+    <meta name="keywords" content="Reseñas, libros, bestseller, literatura" />
+    <meta name="author" content="Sofía" />
+    <meta name="copyright" content="Books" />
+
+    <title>El portal de los libros</title>
+    <link rel="shortcut icon" href="./img/iconbook.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <!-- <img class="imagen" src="./img/logo1.jpg" alt="Logo" width="200" title="Logo" /> -->
+          <li><a href="">Inicio</a></li>
+          <li><a href="">Los más vendidos</a></li>
+          <li><a href="">Por géneros</a></li>
+          <li><a href="">Cuentos infantiles</a></li>
+          <li><a href="">Contactame</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <!-- SUBTITULO DE LA PÁGINA -->
+        <h1 class="books">El portal de los libros</h1>
+        <!-- <img
+          src="./img/portada.jpg"
+          alt="Portada"
+          title="Portada"
+          width="1340" /> -->
+        <h2>Reseñas diarias de tus libros favoritos</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro
+          illo quidem non aliquid beatae iusto, magnam rem veritatis quae optio
+          sit soluta omnis, ipsa consequatur dolores suscipit. Consequuntur ipsa
+          quas officia autem vero ipsam enim in, optio natus quasi veniam modi
+          voluptas, doloribus quos corrupti fugiat explicabo ullam, at
+          consectetur deserunt amet nesciunt? Quae impedit in rerum libero vel.
+        </p>
+      </section>
+      <hr />
+      <!-- linea para diferenciar secciones -->
+      <section>
+        <h2>Últimas reseñas</h2>
+
+        <div class="container">
+          <div class="card">
+            <img src="./img/latiacosima.jpg" />
+            <h4>La tía Cósima</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
+              excepturi unde?
+            </p>
+            <a href="./Pages/TiaCosima.html" target="_blank">Leer más</a>
+          </div>
+
+          <div class="card">
+            <img src="./img/lavidainvisible.jpg" />
+            <h4>La vida invisible de Addie Larue</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
+              excepturi unde?
+            </p>
+            <a href="./Pages/VidaInvisible.html" target="_blank">Leer más</a>
+          </div>
+
+          <div class="card">
+            <img src="./img/alguienesta.jpg" />
+            <h4>Alguien está mintiendo</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
+              excepturi unde?
+            </p>
+            <a href="./Pages/AlguienEsta.html" target="_blank">Leer más</a>
+          </div>
+        </div>
+      </section>
+      <br />
+      <br />
+      <hr />
+
+      <section>
+        <h3 class="register">¡Registrate para recibir novedades!</h3>
+        <form>
+          <div class="form-register">
+            <!-- Caja para almacenar información -->
+            <label for="nombre">Nombre/s</label>
+            <input type="text" id="nombre" name="nombre" />
+            <br />
+            <br />
+            <label for="apellido">Apellido/s</label>
+            <input type="text" id="apellido" name="apellido" />
+            <br />
+            <br />
+            <label for="correo">Mail</label>
+            <input
+              type="email"
+              name="correo"
+              id="correo"
+              placeholder="hola@gmail.com"
+            />
+            <br />
+            <br />
+            <label for="usuario">Nombre de usuario</label>
+            <input type="text" name="usuario" id="usuario" />
+            <br />
+            <br />
+
+            <label for="genero">Género</label>
+            <input
+              class="controls"
+              type="radio"
+              name="genero"
+              value="Masculino"
+              id="masculino"
+            />
+            <label for="masculino">Masculino</label>
+            <input
+              class="controls"
+              type="radio"
+              name="genero"
+              value="Femenino"
+              id="femenino"
+            />
+            <label for="femenino">Femenino</label>
+            <input
+              class="controls"
+              type="radio"
+              name="genero"
+              value="No informa"
+              id="nogenero"
+            />
+            <label for="nogenero">No informa</label>
+            <br /><br />
+
+            <label for="fecha">Fecha de nacimiento</label>
+            <input class="controls" type="date" name="fecha" id="fecha" />
+            <br /><br />
+            <input type="checkbox" name="acepta" id="acepta" required />
+            <label for="acepta">Aceptar los términos y condiciones</label>
+            <br />
+
+            <!-- <input class="btn-submit" type="submit" value="Enviar datos"> -->
+            <button class="btn-enviar" type="submit">Enviar datos</button>
+          </div>
+        </form>
+      </section>
+      <br />
+    </main>
+    <hr />
+    <footer>
+      <nav>
+        <p>Copyright 2021</p>
+        <p>Todos los derechos reservados</p>
+        <section class="buttons">
+          <a
+            href="https://www.facebook.com/cuspidelibros?fref=ts"
+            class="fa fa-facebook"
+            target="_blank"
+          ></a>
+          <a
+            href="https://twitter.com/CuspideLibrosOK"
+            class="fa fa-twitter"
+            target="_blank"
+          ></a>
+          <a
+            href="https://www.instagram.com/cuspidelibros/"
+            class="fa fa-instagram"
+            target="_blank"
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCuUL13ETm_8sR03Q1IC1l6g"
+            class="fa fa-youtube"
+            target="_blank"
+          ></a>
+        </section>
+      </nav>
+    </footer>
+  </body>
+</html>

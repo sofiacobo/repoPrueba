@@ -1,0 +1,79 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    padding: 10px;
+}
+
+header>a>img{
+    display: block;
+    margin: auto;
+}
+
+header>b{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 50px;
+    color: lightslategray;
+    text-align: center;
+    font-family: monospace;
+    padding: 0%;
+    margin: 5px;
+}
+
+figure>img{
+    display: block;
+    margin: auto;
+}
+
+figcaption{
+    text-align: center;
+}
+
+footer>nav{
+    text-align: center;
+}
+
+.buttons{
+    justify-content: space-around;
+}
+
+.buttons a{
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    background: #0e364d;
+    color: whitesmoke;
+    border-radius: 60px;
+}
+
+.buttons a:hover {
+    transform: scale(1.2);
+} 
+
+.container{
+    border: 3px solid black;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.hijo1 {
+    background-color: black;
+    width: 350;
+    height: 400;
+}
+
+.hijo2 {
+    background-color: chocolate;
+    width: 350;
+    height: 400;
+}
